@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google font icons -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="index.css" />
+    <title>Home - Youtube</title>
+  </head>
+  <body>
+    <!-- NAVIGATION STARTS-->
+    <nav>
+      <!-- nav division one -->
+      <div class="nav-left">
+        <!-- menu icon -->
+        <i class="material-symbols-outlined"> menu </i>
+        <!-- logo icon -->
+        <img src="logo.jpg" alt="" />
+      </div>
+      <!-- nav division two; search section -->
+      <div class="nav-mid">
+        <!-- form input -->
+        <form action="">
+          <input type="text" placeholder="Search" />
+          <button id="search">
+            <i class="material-symbols-outlined"> Search </i>
+          </button>
+          <button id="voice">
+            <i class="material-symbols-outlined"> Mic </i>
+          </button>
+        </form>
+      </div>
+      <!-- nav division three -->
+      <div class="nav-right">
+        <i class="material-symbols-outlined" id="cam"> Video_Call </i>
+        <i class="material-symbols-outlined" id="notif"> Notifications </i>
+        <img src="./my_profile.jpg" width="26" height="26">
+      </div>
+    </nav>
+    <!-- NAVIGATION ENDS -->
+
+    <!-- main content -->
+    <div id="main-content">
+      <!-- SIDE BAR STARTS -->
+      <aside>
+        <!-- top section of side bar -->
+        <div id="sidebar-top">
+          <!-- Home -->
+          <div class="categories" id="home">
+            <i class="material-symbols-outlined"> Home </i>
+            <span>Home</span>
+          </div>
+          <!-- Explore -->
+          <div class="categories">
+            <i class="material-symbols-outlined"> Explore </i>
+            <span>Explore</span>
+          </div>
+          <!-- Shorts -->
+          <div class="categories">
+            <i class="material-symbols-outlined"> Movie </i>
+            <span>Shorts</span>
+          </div>
+          <!-- Subscriptions -->
+          <div class="categories">
+            <i class="material-symbols-outlined"> Subscriptions </i>
+            <span>Subscriptions</span>
+          </div>
+        </div>
+
+        <hr />
+        <!-- middle section of side bar -->
+        <div id="sidebar-middle">
+          <!-- Library -->
+          <div class="categories">
+            <i class="material-symbols-outlined"> Video_Library </i>
+            <span>Library</span>
+          </div>
+          <!-- History -->
+          <div class="categories">
+            <i class="material-symbols-outlined"> History </i>
+            <span>History</span>
+          </div>
+          <!-- Your videos -->
+          <div class="categories">
+            <i class="material-symbols-outlined"> Slideshow </i>
+            <span>Your videos</span>
+          </div>
+          <!-- Watch later -->
+          <div class="categories">
+            <i class="material-symbols-outlined"> Schedule </i>
+            <span>Watch later</span>
+          </div>
+          <!-- Liked videos -->
+          <div class="categories">
+            <i class="material-symbols-outlined"> Thumb_Up </i>
+            <span>Liked videos</span>
+          </div>
+          <!-- Show more options -->
+          <div class="categories">
+            <i class="material-symbols-outlined"> Expand_More </i>
+            <span>Show more</span>
+          </div>
+        </div>
+
+        <hr />
+        <!-- Subscriptions -->
+        <div id="sidebar-bottom">
+          <h4>SUBSCRIPTIONS</h4>
+          <div class="categories">
+            <img src="./subscriptions_images/alex_meyers.jpg">
+            <span>Alex Meyers</span>
+          </div>
+          <div class="categories">
+            <img src="./subscriptions_images/alexa_rivera.jpg">
+            <span>Alexa Rivera</span>
+          </div>
+          <div class="categories">
+            <img src="./subscriptions_images/azzyland.jpg">
+            <span>AzzyLand</span>
+          </div>
+          <div class="categories">
+            <img src="./subscriptions_images/bts.jpg">
+            <span>BANGTANTV</span>
+          </div>
+        </div>
+      </aside>
+
+      <main>
+        <hr />
+        <div class="filter">
+          <a href="#1" class="buttons" id="btn1">All</a>
+          <a href="#2" class="buttons">Gaming</a>
+          <a href="#3" class="buttons">Music</a>
+          <a href="#4" class="buttons">Live</a>
+          <a href="#5" class="buttons">Mixes</a>
+          <a href="#6" class="buttons">Britain's Got Talent</a>
+          <a href="#7" class="buttons">Playlists</a>
+          <a href="#8" class="buttons">The Voice</a>
+          <a href="#9" class="buttons">Ariana Grande</a>
+          <a href="#10" class="buttons">Ed Sheeran</a>
+          <a href="#11" class="buttons">The X Factor</a>
+        </div>
+        <hr />
+
+        <div id="videos">
+          <div class="vid" id="vid_first">
+            <div class="vid1">
+              <div class="image">
+                <img src="./video_images/one.jpg" />
+              </div>
+              <div class="ad">
+                The Sandbox Open Metaverse <br />
+                <span>
+                  Join The Sandbox Metaverse to Play, <br />
+                  Create, and Earn on the Ethereum...
+                </span>
+                <br />
+                <div class="info1">
+                  <div>
+                    <img src="./video_images/ad.jpg" alt="" />
+                  </div>
+                  <div>
+                    <span id="span2">The Sandbox</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="vid1">
+              <div class="image">
+                <img src="./video_images/two.jpg" />
+              </div>
+              <div class="des">
+                <div class="pro">
+                  <img src="./video_images/beast.jpg" alt="" />
+                </div>
+                <div id="des7">
+                  Hi Me In 5 Years
+                  <div class="info">
+                    <img src="./video_images/info2.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="vid1">
+              <div class="image">
+                <img src="./video_images/three.jpg" />
+              </div>
+              <div class="des">
+                <div class="pro">
+                  <img src="./video_images/toonight.jpg" alt="" />
+                </div>
+                <div id="des7">
+                  Selena Gomez Dates Her Exs <br />
+                  (ft. Justin Bieber, Chris...
+                  <div class="info">
+                    <img src="./video_images/info3.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="vid1">
+              <div class="image">
+                <img src="./video_images/four.jpg" />
+              </div>
+              <div class="des">
+                <div class="pro">
+                  <img src="./video_images/my.jpg" alt="" />
+                </div>
+                <div id="des7">
+                  I Woke Up From a Coma <br />
+                  After 3 Years and Pranked...
+                  <div class="info">
+                    <img src="./video_images/info4.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="vid second" id="vid_second">
+            <div class="vid1">
+              <div class="image">
+                <img src="./video_images/five.jpg" />
+              </div>
+              <div class="des">
+                <div class="pro">
+                  <img src="./video_images/eagle.jpg" alt="" />
+                </div>
+                <div id="des7">
+                  Things Your Parents Said <br />
+                  were Illegal ...
+                  <div class="info">
+                    <img src="./video_images/info5.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="vid1">
+              <div class="image">
+                <img src="./video_images/six.jpg" />
+              </div>
+              <div class="des">
+                <div class="pro">
+                  <img src="./video_images/steezy.jpg" alt="" />
+                </div>
+                <div id="des7">
+                  How to do a Hand Wave <br />
+                  STEEZY.CO #Shorts
+                  <div class="info">
+                    <img src="./video_images/info6.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="vid1">
+              <div class="image">
+                <img src="./video_images/seven.jpg" />
+              </div>
+              <div class="des">
+                <div class="pro">
+                  <img src="./video_images/henry.jpg" alt="" />
+                </div>
+                <div id="des7">
+                  Charlotte Through the Years! <br />
+                  Henry Danger
+                  <div class="info">
+                    <img src="./video_images/info7.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="vid1">
+              <div class="image">
+                <img src="./video_images/eight.jpg" />
+              </div>
+              <div class="des">
+                <div class="pro">
+                  <img src="./video_images/little.jpg" alt="" />
+                </div>
+                <div id="des8">
+                  Little Mix - The Last Show <br />
+                  (for now)
+                  <div class="info">
+                    <img src="./video_images/info8.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
